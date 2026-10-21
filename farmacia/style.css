@@ -64,4 +64,9 @@ hr {
 }
 
 
-.
+.inpu {
+    height: 33px;
+    width: 33%;
+    border-radius: 14px;
+    border: 1px solid #71acb6;
+}
