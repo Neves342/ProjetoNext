@@ -1,7 +1,8 @@
 import Link from "next/link"
-
-const DashboarPage = () => {
+const DashboardPage = () => {
   return (
+  
+
     <main className="bg-[#004E92] h-20 text-[#F8FCFF] padding-0">
        {/* <Link href="/login">Voltar para tela inicial</Link> */}
 
@@ -26,17 +27,19 @@ const DashboarPage = () => {
             <img  className="relative top-3 left-5" src="barrinha.svg"></img>
             <hr className="relative top-10"></hr>
         <div className="flex flex-col gap-6 relative left-5 top-15">
-            <p>dashboard</p>
-            <p>Chamados</p>
-            <p>Agendamento</p>
-            <p>Configurações</p>
+             <Link href="\dashboard"><p>Dashboard</p></Link>
+             <Link href="\chamado"><p>Chamado</p></Link>
+             <Link href="\agendamento"><p>Agendamento</p></Link>
+             <Link href="\configuracao"><p>Configurações</p></Link>
+             <Link href="\inicial"><p>Voltar</p></Link>
+        
         </div>
      </aside>           
 
      <section>
           
-        <div className="bg-[#EBEFF2]  h-50 w-390 relative bottom-150 left-70 ">
-
+        <div className="bg-[#EBEFF2]  h-0 w-390 relative bottom-150 left-70 ">
+           {/* <img  className="h" src="\circulo.svg"></img> */}
 
 
         </div>
@@ -48,5 +51,6 @@ const DashboarPage = () => {
   )
 }
 
-export default DashboarPage
 
+
+export default DashboardPage

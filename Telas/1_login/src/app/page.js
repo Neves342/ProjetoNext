@@ -45,7 +45,7 @@ export default function Home() {
                   <button className="border-1 text-[#007B91] rounded-3xl h-10 w-40 ">Criar Conta</button>
                 </div>
                 <div>
-                  <button  Link href="/dashboard" className="border-none text-white rounded-3xl h-10 w-40 bg-[#007B91]">Entrar</button>
+                 <Link className="relative left-27 bottom-3.5 text-[#F8FCFF]" href="\inicial">Entrar</Link> <button  className="border-none text-white rounded-3xl h-10 w-40 bg-[#007B91]"></button>
                     {/* <Link href="/dashboard" className="border-none text-white rounded-3xl h-10 w-40 bg-[#007B91]">Entrar</Link> */}
                  
                 </div>
