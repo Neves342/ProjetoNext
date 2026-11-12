@@ -16,7 +16,7 @@ const DashboardPage = () => {
         <div className="flex gap-20 h-13 relative top-4">
                 <img  className=" h-12" src="/iconeEscuro.svg"></img>
             <div className="flex gap-10 ">
-                <p className="relative top-4 left-7">Perfil</p>
+                <Link href="/login"><p className="relative top-4 left-7">Sair</p></Link>
                 <img src="/icone-pessoa.svg"></img>
             </div>
         </div>

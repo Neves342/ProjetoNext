@@ -3,9 +3,9 @@ import Link from "next/link"
 const InicialPage = () => {
   return (
     <main className="bg-[#004E92] h-20 text-[#F8FCFF] padding-0">
-       {/* <Link href="/login">Voltar para tela inicial</Link> */}
+      
 
-     <header className="flex  gap-330  ">
+     <header className="flex  gap-330">
         
         <div className="flex">
             <img src="/TJPA.logo.svg" className="relative left-10" alt="logo TJPA"></img>
@@ -15,7 +15,7 @@ const InicialPage = () => {
         <div className="flex gap-20 h-13 relative top-4">
                 <img  className=" h-12" src="/iconeEscuro.svg"></img>
             <div className="flex gap-10 ">
-                <p className="relative top-4 left-7">Perfil</p>
+                <Link href="/login"><p className="relative top-4 left-7">Sair</p></Link>
                 <img src="/icone-pessoa.svg"></img>
             </div>
         </div>
